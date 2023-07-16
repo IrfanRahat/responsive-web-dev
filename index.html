@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Space Mono', monospace;
+        }
+
+        header>h3 {
+            color: #333;
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 40px;
+            margin-left: 70px;
+            padding-bottom: 100px;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 70px;
+        }
+
+        .imgs>img {
+            width: 650px;
+            height: 600px;
+        }
+
+        .description,
+        h1,
+        p {
+            padding-top: 30px;
+        }
+
+        .description>h1 {
+            color: #333;
+            font-size: 64px;
+            font-weight: 700;
+        }
+
+        .description>p {
+            color: #4F4F4F;
+            font-size: 24px;
+            font-weight: 400;
+            padding-bottom: 50px;
+        }
+
+        button {
+            width: 216px;
+            height: 68px;
+            background-color: #333;
+            color: white;
+            font-size: 12px;
+            font-weight: 400;
+
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 100px;
+
+        }
+
+        small {
+            color: #BDBDBD;
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration-line: underline;
+        }
+
+        @media screen and (max-width:576px){
+        
+            main{
+                display: flex; 
+                flex-direction: column;
+                align-items: center;
+                margin-top: 0px;
+
+             }
+             .imgs>img{
+                width: 400px;
+                height: 380px;
+                padding: 10px;
+            
+             }
+        } 
+            
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3>404 NOT FOUND</h3>
+    </header>
+    <main>
+        <div class="imgs">
+            <img src="./imgs/scarecrow.png" alt="">
+        </div>
+        <div class="description">
+            <h1>I Have Bad News <br> For You</h1>
+            <p>The Page You Are Looking <br> For might be removed or is <br> temporarily unavilable </p>
+            <button>back to my homepage</button>
+        </div>
+    </main>
+
+    <footer>
+        <small>Created By- Dank Nazi@</small>
+    </footer>
+</body>
+
+</html>
